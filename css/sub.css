@@ -1,0 +1,79 @@
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+#header {
+  width: 1348px;
+  margin: 30px auto 15px; }
+  #header img {
+    width: 122px;
+    height: 47px; }
+  #header .head-ri p {
+    font-size: 14px;
+    color: #a4acc3; }
+    #header .head-ri p a {
+      color: #a4acc3;
+      border-bottom: 1px solid #a4acc3; }
+    #header .head-ri p span {
+      margin: 0 15px; }
+
+#header .head-ri a:hover {
+  color: #18aadd;
+  border-bottom: 1px solid #18aadd; }
+
+#main {
+  position: relative;
+  height: 485px;
+  width: 100%;
+  background: url(../img/operatbg.jpg); }
+  #main .ce {
+    position: absolute;
+    top: 15px;
+    width: 425px;
+    height: 456px;
+    background: #FFF;
+    right: 10px; }
+    #main .ce p {
+      border: 1px solid #CCCCCC;
+      width: 380px;
+      margin: 0 auto;
+      margin-top: 15px; }
+      #main .ce p img {
+        height: 43px; }
+    #main .ce input {
+      border: none;
+      outline: medium; }
+    #main .ce .p1 {
+      border: none;
+      font: 17px/60px ""; }
+      #main .ce .p1 a {
+        color: 13px/60px "";
+        color: #009de6;
+        float: right; }
+    #main .ce .p2 {
+      width: 228px;
+      margin: 0;
+      display: inline-block; }
+    #main .ce .p3 {
+      border: 0; }
+    #main .ce .p4 {
+      width: 380px; }
+    #main .ce .inp1 {
+      width: 330px;
+      height: 45px; }
+    #main .ce .inp2 {
+      width: 230px;
+      height: 45px; }
+    #main .ce .inp3 {
+      width: 223px;
+      height: 45px; }
+    #main .ce .inp4 {
+      width: 380px;
+      height: 45px;
+      background: #009de6;
+      font-size: 17px;
+      color: #fff; }
+
+/*# sourceMappingURL=sub.css.map */

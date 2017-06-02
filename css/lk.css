@@ -1,0 +1,51 @@
+/*
+Error: Invalid CSS after "...     .head-to-r": expected "{", was "}"
+        on line 37 of lk.scss
+
+32:                    text-align: center;
+33:                    font: 12px/37px ""; 
+34:                }
+35:            }
+36:            .head-to-r
+37:         }
+38:     }
+39: }
+
+Backtrace:
+lk.scss:37
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
+C:/Ruby21-x64/bin/sass:23:in `load'
+C:/Ruby21-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...     .head-to-r\": expected \"{\", was \"}\"\A         on line 37 of lk.scss\A \A 32:                    text-align: center;\A 33:                    font: 12px/37px \"\"; \A 34:                }\A 35:            }\A 36:            .head-to-r\A 37:         }\A 38:     }\A 39: }"; }

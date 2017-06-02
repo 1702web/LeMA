@@ -1,0 +1,100 @@
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+#header {
+  width: 1348px;
+  margin: 30px auto 15px; }
+  #header img {
+    width: 122px;
+    height: 47px; }
+  #header .head-ri p {
+    font-size: 14px;
+    color: #a4acc3; }
+    #header .head-ri p a {
+      color: #a4acc3;
+      border-bottom: 1px solid #a4acc3; }
+    #header .head-ri p span {
+      margin: 0 15px; }
+
+#header .head-ri a:hover {
+  color: #18aadd;
+  border-bottom: 1px solid #18aadd; }
+
+#main {
+  position: relative;
+  height: 485px;
+  width: 100%;
+  background: url(../img/operatbg.jpg); }
+  #main .ce {
+    position: absolute;
+    top: 15px;
+    width: 375px;
+    height: 456px;
+    background: #FFF;
+    right: 10px;
+    padding: 0 25px; }
+    #main .ce .ce-to {
+      font: 18px/60px "";
+      height: 70px; }
+      #main .ce .ce-to .sp1 a {
+        float: right;
+        color: #52b4f5; }
+    #main .ce .box2 {
+      display: none; }
+    #main .ce li {
+      border: 1px solid #cccccc;
+      margin-bottom: 15px; }
+    #main .ce input {
+      width: 320px;
+      border: none;
+      height: 45px;
+      outline: medium; }
+    #main .ce .inp1 {
+      width: 15px;
+      border: none;
+      height: 15px;
+      margin-top: 3px; }
+    #main .ce span a {
+      float: right;
+      color: #009de6; }
+    #main .ce .inp2 {
+      width: 380px;
+      background: #009de6;
+      color: #fff;
+      font-size: 17px;
+      margin-top: 13px; }
+    #main .ce .p-p1 {
+      margin-bottom: 15px; }
+      #main .ce .p-p1 em {
+        display: inline-block;
+        border: 1px solid #cccccc; }
+      #main .ce .p-p1 .inp-p1 {
+        width: 190px; }
+      #main .ce .p-p1 .em-e1 {
+        width: 120px;
+        height: 45px;
+        border: 1px solid #0080FF;
+        color: #0080FF;
+        float: right;
+        font: 14px/45px "";
+        text-align: center; }
+    #main .ce .ce-bo {
+      margin-top: 100px;
+      text-align: center; }
+      #main .ce .ce-bo p {
+        font: 14px/30px "";
+        border-bottom: 1px solid #CCCCCC; }
+      #main .ce .ce-bo span {
+        display: block;
+        width: 100px;
+        background: #FFF;
+        position: relative;
+        top: -5px;
+        margin: 0 auto; }
+      #main .ce .ce-bo .img {
+        display: none; }
+
+/*# sourceMappingURL=deng.css.map */
