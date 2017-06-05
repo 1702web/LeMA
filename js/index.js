@@ -1,4 +1,9 @@
 $(function(){
+	   // alert(document.cookie)
+	    if(getCookie("userName")!=""){
+	    	$(".head-le").html("<sapn class='tianjia'>欢迎回来!!!</span>");
+	    	$(".tianjia").css({color:"red",font:"14px/25px ''"})
+	    }
 		$(".na-le2 ul li").mouseenter(function(){
 			$(".nav-c"+this.className+"").css("display","block").siblings().css("display","none");
 			$(".nav-c").slideDown(200)
@@ -32,10 +37,12 @@ $(function(){
 			//alert("1")
 			if(($("body").scrollTop())>=100){
 				//alert("1")
-				$("#nav").css({top:($("body").scrollTop()-25)+"px",boxShadow:"0px 5px 2px #F0EBEB"});
+				$("#nav").css({position:"fixed",top:"0",boxShadow:"0px 5px 2px #F0EBEB"});
+				$("#head").css({marginBottom:"80px"})
 				
 			}else{
-				$("#nav").css({top:"0px",boxShadow:"none"})
+				$("#nav").css({position:"relative",top:"0px",boxShadow:"none"})
+				$("#head").css({marginBottom:"0px"})
 			}
 		});
 	});

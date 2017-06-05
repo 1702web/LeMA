@@ -1,0 +1,31 @@
+#data-min .min-to {
+  border-bottom: 1px solid #CCCCCC; }
+  #data-min .min-to span {
+    margin: 0 15px; }
+  #data-min .min-to a {
+    font: 14px/45px ""; }
+#data-min .min-co .img-to {
+  width: 448px;
+  height: 448px;
+  background: #009DE6; }
+#data-min .min-co .img-bo {
+  margin: 23px auto 5px;
+  width: 450px;
+  height: 90px;
+  background: #6699FF; }
+#data-min .cen-ri {
+  width: 720px; }
+  #data-min .cen-ri h1 {
+    font: 800 20px/20px ""; }
+  #data-min .cen-ri p {
+    font: 14px/30px "";
+    color: #000; }
+  #data-min .cen-ri ul li {
+    color: #888; }
+    #data-min .cen-ri ul li span {
+      margin-right: 20px; }
+  #data-min .cen-ri ul .li-1 {
+    background: #F6F6F6;
+    font: 14px; }
+
+/*# sourceMappingURL=datails.css.map */

@@ -147,7 +147,7 @@ $(function(){
 		boxId:"banner01",
 		aArr:["#","#","#","#","#"],
 		imgArr:["img/banner0.jpg","img/banner1.jpg","img/banner2.jpg","img/banner3.jpg","img/banner4.jpg"],
-		width:1423,
+		width:$("body").width(),
 		height:520,
 	    fadeInOutTime:1000,
 	    pauseTime:2000,

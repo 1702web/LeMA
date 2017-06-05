@@ -1,51 +1,157 @@
-/*
-Error: Invalid CSS after "...     .head-to-r": expected "{", was "}"
-        on line 37 of lk.scss
+.wrpper {
+  width: 1200px;
+  margin: 0 auto; }
 
-32:                    text-align: center;
-33:                    font: 12px/37px ""; 
-34:                }
-35:            }
-36:            .head-to-r
-37:         }
-38:     }
-39: }
+a:hover {
+  color: red; }
 
-Backtrace:
-lk.scss:37
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1207:in `expected'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1137:in `expected'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:1132:in `tok!'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:665:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:674:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:735:in `declaration_or_ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:685:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:666:in `block'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:658:in `ruleset'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:684:in `block_child'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:677:in `block_contents'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:125:in `stylesheet'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:406:in `_to_tree'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/sass-3.4.24/bin/sass:13:in `<top (required)>'
-C:/Ruby21-x64/bin/sass:23:in `load'
-C:/Ruby21-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...     .head-to-r\": expected \"{\", was \"}\"\A         on line 37 of lk.scss\A \A 32:                    text-align: center;\A 33:                    font: 12px/37px \"\"; \A 34:                }\A 35:            }\A 36:            .head-to-r\A 37:         }\A 38:     }\A 39: }"; }
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+#header {
+  border-bottom: 2px solid #000; }
+  #header .header {
+    background: #f7f7f7; }
+    #header .header .head-to .head-to-l {
+      border-bottom: 1px solid #e7e7e7; }
+      #header .header .head-to .head-to-l .te {
+        position: relative;
+        width: 100px; }
+        #header .header .head-to .head-to-l .te:hover .box {
+          display: block; }
+        #header .header .head-to .head-to-l .te .box {
+          display: none;
+          position: absolute;
+          background: #fff;
+          border: 1px solid #f7f7f7;
+          display: none; }
+      #header .header .head-to .head-to-l li {
+        position: relative;
+        float: left;
+        width: 75px;
+        text-align: center;
+        font: 12px/37px ""; }
+        #header .header .head-to .head-to-l li:hover ul {
+          display: block; }
+        #header .header .head-to .head-to-l li span {
+          margin: 0 5px; }
+        #header .header .head-to .head-to-l li ul {
+          background: #fff;
+          position: absolute;
+          display: none;
+          border: 1px solid #ccc; }
+  #header .head-bo {
+    padding: 25px 0 20px;
+    background: #fff; }
+    #header .head-bo .head-bo-l {
+      margin-right: 144px; }
+      #header .head-bo .head-bo-l img {
+        width: 230px;
+        height: 40px; }
+    #header .head-bo .head-bo-c {
+      width: 487px;
+      position: relative; }
+      #header .head-bo .head-bo-c .inp1 {
+        width: 392px;
+        height: 30px;
+        border: 2px solid red;
+        float: left;
+        outline: medium; }
+      #header .head-bo .head-bo-c .inp2 {
+        width: 90px;
+        height: 34px;
+        background: red;
+        color: #fff;
+        font-size: 15px;
+        border: none;
+        float: left;
+        outline: medium; }
+      #header .head-bo .head-bo-c a {
+        font: 14px/30px "";
+        margin: 0 5px; }
+      #header .head-bo .head-bo-c .box {
+        display: none;
+        width: 392px;
+        border: 1px solid #ccc;
+        position: absolute;
+        top: 32px;
+        z-index: 1;
+        background: #fff; }
+        #header .head-bo .head-bo-c .box li:hover {
+          background: red; }
+          #header .head-bo .head-bo-c .box li:hover a {
+            color: #fff; }
+    #header .head-bo .head-bo-r {
+      margin-left: 58px;
+      width: 160px;
+      font: 13px/34px "";
+      border: 1px solid #ccc;
+      text-align: center; }
+      #header .head-bo .head-bo-r:hover {
+        border: 1px solid red; }
+      #header .head-bo .head-bo-r:hover a {
+        color: red; }
+  #header .head-boo ul li {
+    text-align: center;
+    font: 14px/40px "";
+    float: left;
+    width: 85px;
+    height: 40px; }
+  #header .head-boo ul .te1 {
+    position: relative;
+    width: 238px;
+    background: #282727; }
+    #header .head-boo ul .te1:hover .bigBox {
+      display: block; }
+    #header .head-boo ul .te1 a {
+      color: #fff; }
+    #header .head-boo ul .te1 .bigBox {
+      position: absolute;
+      display: none;
+      background: #69f;
+      width: 1200px; }
+      #header .head-boo ul .te1 .bigBox .ban-min-left li {
+        float: none;
+        display: block;
+        height: 65px;
+        width: 200px;
+        padding: 0 15px;
+        font: 12px/65px "";
+        border-bottom: 1px solid #e5e2ed;
+        background: #f2f2ff url(../img/tu1.png) no-repeat 185px 27px; }
+        #header .head-boo ul .te1 .bigBox .ban-min-left li a {
+          color: #999999; }
+        #header .head-boo ul .te1 .bigBox .ban-min-left li:hover {
+          background: #fff; }
+          #header .head-boo ul .te1 .bigBox .ban-min-left li:hover a {
+            color: red; }
+      #header .head-boo ul .te1 .bigBox .ban-min-right {
+        display: none;
+        width: 950px;
+        position: relative;
+        background: #fff; }
+        #header .head-boo ul .te1 .bigBox .ban-min-right li {
+          float: left;
+          width: 180px;
+          text-align: center;
+          margin: 5px; }
+          #header .head-boo ul .te1 .bigBox .ban-min-right li p {
+            margin: 10px 0; }
+        #header .head-boo ul .te1 .bigBox .ban-min-right img {
+          width: 50px;
+          height: 50px; }
+        #header .head-boo ul .te1 .bigBox .ban-min-right .te img {
+          width: 170px;
+          height: 386px; }
+        #header .head-boo ul .te1 .bigBox .ban-min-right .ban-min1 {
+          display: block; }
+  #header .head-boo ul .te2 {
+    float: right;
+    width: 200px; }
+    #header .head-boo ul .te2 a {
+      margin: 0 7px; }
+
+/*# sourceMappingURL=lk.css.map */
